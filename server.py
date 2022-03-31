@@ -33,7 +33,3 @@ def chain(chain_id):
                 return redirect(url_for('chain', chain_id=next(redirect_chain)))
             except StopIteration:
                 return "<p>Success</p>"
-
-
-
-
